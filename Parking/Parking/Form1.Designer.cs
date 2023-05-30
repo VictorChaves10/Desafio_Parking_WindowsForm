@@ -51,6 +51,8 @@
             this.lvVehicleEntrance = new System.Windows.Forms.ListView();
             this.panelPayment = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.labelTotalTime = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.labelPricepeTtime = new System.Windows.Forms.Label();
@@ -67,8 +69,9 @@
             this.textBoxPaymentParkingSpace = new System.Windows.Forms.TextBox();
             this.labelPaymentParkingSpace = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.label3 = new System.Windows.Forms.Label();
-            this.labelTotalTime = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.painelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbxHeader)).BeginInit();
             this.panelVehicleRegistration.SuspendLayout();
@@ -79,6 +82,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picbxListVehicle)).BeginInit();
             this.panelPayment.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -331,6 +336,7 @@
             // panelPayment
             // 
             this.panelPayment.BackColor = System.Drawing.SystemColors.Window;
+            this.panelPayment.Controls.Add(this.panel2);
             this.panelPayment.Controls.Add(this.panel1);
             this.panelPayment.Controls.Add(this.textBoxPaymentExistTime);
             this.panelPayment.Controls.Add(this.labelPaymentExitTime);
@@ -357,10 +363,33 @@
             this.panel1.Controls.Add(this.labelPricepeTtime);
             this.panel1.Controls.Add(this.textBoxPaymentPricePerPeriod);
             this.panel1.Controls.Add(this.labelPaymentPrice);
-            this.panel1.Location = new System.Drawing.Point(45, 328);
+            this.panel1.Location = new System.Drawing.Point(42, 348);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(495, 221);
             this.panel1.TabIndex = 19;
+            // 
+            // labelTotalTime
+            // 
+            this.labelTotalTime.AutoSize = true;
+            this.labelTotalTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelTotalTime.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelTotalTime.Location = new System.Drawing.Point(366, 95);
+            this.labelTotalTime.Name = "labelTotalTime";
+            this.labelTotalTime.Size = new System.Drawing.Size(88, 28);
+            this.labelTotalTime.TabIndex = 24;
+            this.labelTotalTime.Text = "00:00:00";
+            this.labelTotalTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label3.Location = new System.Drawing.Point(20, 95);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 28);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Total time";
             // 
             // label2
             // 
@@ -423,17 +452,17 @@
             // 
             this.textBoxPaymentExistTime.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBoxPaymentExistTime.Enabled = false;
-            this.textBoxPaymentExistTime.Location = new System.Drawing.Point(300, 230);
+            this.textBoxPaymentExistTime.Location = new System.Drawing.Point(315, 288);
             this.textBoxPaymentExistTime.MaximumSize = new System.Drawing.Size(10000, 1000);
             this.textBoxPaymentExistTime.Name = "textBoxPaymentExistTime";
-            this.textBoxPaymentExistTime.Size = new System.Drawing.Size(231, 30);
+            this.textBoxPaymentExistTime.Size = new System.Drawing.Size(222, 30);
             this.textBoxPaymentExistTime.TabIndex = 16;
             // 
             // labelPaymentExitTime
             // 
             this.labelPaymentExitTime.AutoSize = true;
             this.labelPaymentExitTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentExitTime.Location = new System.Drawing.Point(300, 199);
+            this.labelPaymentExitTime.Location = new System.Drawing.Point(315, 255);
             this.labelPaymentExitTime.Name = "labelPaymentExitTime";
             this.labelPaymentExitTime.Size = new System.Drawing.Size(90, 28);
             this.labelPaymentExitTime.TabIndex = 15;
@@ -443,17 +472,17 @@
             // 
             this.textBoxPaymentEntryTime.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBoxPaymentEntryTime.Enabled = false;
-            this.textBoxPaymentEntryTime.Location = new System.Drawing.Point(57, 230);
+            this.textBoxPaymentEntryTime.Location = new System.Drawing.Point(48, 286);
             this.textBoxPaymentEntryTime.MaximumSize = new System.Drawing.Size(10000, 1000);
             this.textBoxPaymentEntryTime.Name = "textBoxPaymentEntryTime";
-            this.textBoxPaymentEntryTime.Size = new System.Drawing.Size(210, 30);
+            this.textBoxPaymentEntryTime.Size = new System.Drawing.Size(222, 30);
             this.textBoxPaymentEntryTime.TabIndex = 14;
             // 
             // labelPaymentEntryTime
             // 
             this.labelPaymentEntryTime.AutoSize = true;
             this.labelPaymentEntryTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentEntryTime.Location = new System.Drawing.Point(57, 199);
+            this.labelPaymentEntryTime.Location = new System.Drawing.Point(48, 255);
             this.labelPaymentEntryTime.Name = "labelPaymentEntryTime";
             this.labelPaymentEntryTime.Size = new System.Drawing.Size(104, 28);
             this.labelPaymentEntryTime.TabIndex = 13;
@@ -463,17 +492,17 @@
             // 
             this.textBoxPaymentNumberPalte.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBoxPaymentNumberPalte.Enabled = false;
-            this.textBoxPaymentNumberPalte.Location = new System.Drawing.Point(373, 153);
+            this.textBoxPaymentNumberPalte.Location = new System.Drawing.Point(336, 165);
             this.textBoxPaymentNumberPalte.MaximumSize = new System.Drawing.Size(10000, 1000);
             this.textBoxPaymentNumberPalte.Name = "textBoxPaymentNumberPalte";
-            this.textBoxPaymentNumberPalte.Size = new System.Drawing.Size(158, 30);
+            this.textBoxPaymentNumberPalte.Size = new System.Drawing.Size(160, 30);
             this.textBoxPaymentNumberPalte.TabIndex = 12;
             // 
             // labelPaymentNumberPlate
             // 
             this.labelPaymentNumberPlate.AutoSize = true;
             this.labelPaymentNumberPlate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentNumberPlate.Location = new System.Drawing.Point(373, 119);
+            this.labelPaymentNumberPlate.Location = new System.Drawing.Point(336, 131);
             this.labelPaymentNumberPlate.Name = "labelPaymentNumberPlate";
             this.labelPaymentNumberPlate.Size = new System.Drawing.Size(132, 28);
             this.labelPaymentNumberPlate.TabIndex = 8;
@@ -483,7 +512,7 @@
             // 
             this.textBoxPaymentVehicleType.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBoxPaymentVehicleType.Enabled = false;
-            this.textBoxPaymentVehicleType.Location = new System.Drawing.Point(177, 152);
+            this.textBoxPaymentVehicleType.Location = new System.Drawing.Point(150, 165);
             this.textBoxPaymentVehicleType.MaximumSize = new System.Drawing.Size(10000, 1000);
             this.textBoxPaymentVehicleType.Name = "textBoxPaymentVehicleType";
             this.textBoxPaymentVehicleType.Size = new System.Drawing.Size(138, 30);
@@ -493,7 +522,7 @@
             // 
             this.labelPaymentVehicleType.AutoSize = true;
             this.labelPaymentVehicleType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentVehicleType.Location = new System.Drawing.Point(177, 119);
+            this.labelPaymentVehicleType.Location = new System.Drawing.Point(150, 132);
             this.labelPaymentVehicleType.Name = "labelPaymentVehicleType";
             this.labelPaymentVehicleType.Size = new System.Drawing.Size(117, 28);
             this.labelPaymentVehicleType.TabIndex = 10;
@@ -503,7 +532,7 @@
             // 
             this.textBoxPaymentParkingSpace.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBoxPaymentParkingSpace.Enabled = false;
-            this.textBoxPaymentParkingSpace.Location = new System.Drawing.Point(57, 152);
+            this.textBoxPaymentParkingSpace.Location = new System.Drawing.Point(54, 165);
             this.textBoxPaymentParkingSpace.MaximumSize = new System.Drawing.Size(10000, 1000);
             this.textBoxPaymentParkingSpace.Name = "textBoxPaymentParkingSpace";
             this.textBoxPaymentParkingSpace.Size = new System.Drawing.Size(61, 30);
@@ -513,7 +542,7 @@
             // 
             this.labelPaymentParkingSpace.AutoSize = true;
             this.labelPaymentParkingSpace.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentParkingSpace.Location = new System.Drawing.Point(57, 120);
+            this.labelPaymentParkingSpace.Location = new System.Drawing.Point(54, 133);
             this.labelPaymentParkingSpace.Name = "labelPaymentParkingSpace";
             this.labelPaymentParkingSpace.Size = new System.Drawing.Size(35, 28);
             this.labelPaymentParkingSpace.TabIndex = 8;
@@ -525,28 +554,42 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // label3
+            // panel2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label3.Location = new System.Drawing.Point(20, 95);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 28);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "Total time";
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(574, 106);
+            this.panel2.TabIndex = 20;
             // 
-            // labelTotalTime
+            // label4
             // 
-            this.labelTotalTime.AutoSize = true;
-            this.labelTotalTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelTotalTime.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelTotalTime.Location = new System.Drawing.Point(366, 95);
-            this.labelTotalTime.Name = "labelTotalTime";
-            this.labelTotalTime.Size = new System.Drawing.Size(88, 28);
-            this.labelTotalTime.TabIndex = 24;
-            this.labelTotalTime.Text = "00:00:00";
-            this.labelTotalTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.Window;
+            this.label4.Location = new System.Drawing.Point(214, 0);
+            this.label4.Name = "label4";
+            this.label4.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.label4.Size = new System.Drawing.Size(360, 106);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Vehicle Registration";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = global::Parking.Properties.Resources._1;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(128, 106);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
             // 
             // Parking
             // 
@@ -576,6 +619,8 @@
             this.panelPayment.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -621,5 +666,8 @@
         private Label label1;
         private Label labelTotalTime;
         private Label label3;
+        private Panel panel2;
+        private Label label4;
+        private PictureBox pictureBox1;
     }
 }
