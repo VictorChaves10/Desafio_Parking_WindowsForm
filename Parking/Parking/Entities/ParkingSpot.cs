@@ -37,9 +37,10 @@ namespace Parking.Entities
         public TimeSpan TimePermanency()
         {
             TimeSpan t = ExitTime.Subtract(EntryTime);
-            TimeOfPermanency = TimeSpan.FromHours(t.Hours);
+            TimeOfPermanency = t;
             return TimeOfPermanency;
         }
+
 
         public double PricePerPeriod()
         {
