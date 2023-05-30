@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Academia_.NET_Atos_UFN\\Desafios\\Parking\\Parking\\Parking.csproj",
+      "projectUniqueName": "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj",
       "projectName": "Parking",
-      "projectPath": "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Academia_.NET_Atos_UFN\\Desafios\\Parking\\Parking\\Parking.csproj",
+      "projectPath": "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj",
       "packagesPath": "C:\\Users\\a867900\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Academia_.NET_Atos_UFN\\Desafios\\Parking\\Parking\\obj\\",
+      "outputPath": "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Desafio_Parking_WindowsForm\\Parking\\Parking\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
