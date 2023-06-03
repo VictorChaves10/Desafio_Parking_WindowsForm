@@ -28,601 +28,588 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.panelMenu = new System.Windows.Forms.Panel();
-            this.painelHeader = new System.Windows.Forms.Panel();
-            this.picbxHeader = new System.Windows.Forms.PictureBox();
-            this.panelVehicleRegistration = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.labelTitleEntryVehicle = new System.Windows.Forms.Label();
-            this.picbxEntryVehicle = new System.Windows.Forms.PictureBox();
-            this.cbxParkingSpace = new System.Windows.Forms.ComboBox();
-            this.lblParkingSpace = new System.Windows.Forms.Label();
-            this.btnAddVehicle = new System.Windows.Forms.Button();
-            this.txbNumberPlate = new System.Windows.Forms.TextBox();
-            this.lblNumberPlate = new System.Windows.Forms.Label();
-            this.cbxVehicleType = new System.Windows.Forms.ComboBox();
-            this.lblVehicleType = new System.Windows.Forms.Label();
-            this.pnlLisvViewEntryCar = new System.Windows.Forms.Panel();
-            this.buttonRemoveVehicle = new System.Windows.Forms.Button();
-            this.panelListOfRestered = new System.Windows.Forms.Panel();
-            this.lblTitleVehicleEntry = new System.Windows.Forms.Label();
-            this.picbxListVehicle = new System.Windows.Forms.PictureBox();
-            this.lvVehicleEntrance = new System.Windows.Forms.ListView();
-            this.panelPayment = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelTotalTime = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.labelPricepeTtime = new System.Windows.Forms.Label();
-            this.textBoxPaymentPricePerPeriod = new System.Windows.Forms.Label();
-            this.labelPaymentPrice = new System.Windows.Forms.Label();
-            this.textBoxPaymentExistTime = new System.Windows.Forms.TextBox();
-            this.labelPaymentExitTime = new System.Windows.Forms.Label();
-            this.textBoxPaymentEntryTime = new System.Windows.Forms.TextBox();
-            this.labelPaymentEntryTime = new System.Windows.Forms.Label();
-            this.textBoxPaymentNumberPalte = new System.Windows.Forms.TextBox();
-            this.labelPaymentNumberPlate = new System.Windows.Forms.Label();
-            this.textBoxPaymentVehicleType = new System.Windows.Forms.TextBox();
-            this.labelPaymentVehicleType = new System.Windows.Forms.Label();
-            this.textBoxPaymentParkingSpace = new System.Windows.Forms.TextBox();
-            this.labelPaymentParkingSpace = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.painelHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picbxHeader)).BeginInit();
-            this.panelVehicleRegistration.SuspendLayout();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picbxEntryVehicle)).BeginInit();
-            this.pnlLisvViewEntryCar.SuspendLayout();
-            this.panelListOfRestered.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picbxListVehicle)).BeginInit();
-            this.panelPayment.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            panelMenu = new Panel();
+            painelHeader = new Panel();
+            picbxHeader = new PictureBox();
+            panelVehicleRegistration = new Panel();
+            panel5 = new Panel();
+            labelTitleEntryVehicle = new Label();
+            picbxEntryVehicle = new PictureBox();
+            cbxParkingSpace = new ComboBox();
+            lblParkingSpace = new Label();
+            btnAddVehicle = new Button();
+            txbNumberPlate = new TextBox();
+            lblNumberPlate = new Label();
+            cbxVehicleType = new ComboBox();
+            lblVehicleType = new Label();
+            pnlLisvViewEntryCar = new Panel();
+            buttonRemoveVehicle = new Button();
+            panelListOfRestered = new Panel();
+            lblTitleVehicleEntry = new Label();
+            picbxListVehicle = new PictureBox();
+            lvVehicleEntrance = new ListView();
+            panelPayment = new Panel();
+            panel2 = new Panel();
+            label4 = new Label();
+            pictureBox1 = new PictureBox();
+            panel1 = new Panel();
+            labelTotalTime = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            labelPricepeTtime = new Label();
+            textBoxPaymentPricePerPeriod = new Label();
+            labelPaymentPrice = new Label();
+            textBoxPaymentExistTime = new TextBox();
+            labelPaymentExitTime = new Label();
+            textBoxPaymentEntryTime = new TextBox();
+            labelPaymentEntryTime = new Label();
+            textBoxPaymentNumberPalte = new TextBox();
+            labelPaymentNumberPlate = new Label();
+            textBoxPaymentVehicleType = new TextBox();
+            labelPaymentVehicleType = new Label();
+            textBoxPaymentParkingSpace = new TextBox();
+            labelPaymentParkingSpace = new Label();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            painelHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picbxHeader).BeginInit();
+            panelVehicleRegistration.SuspendLayout();
+            panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picbxEntryVehicle).BeginInit();
+            pnlLisvViewEntryCar.SuspendLayout();
+            panelListOfRestered.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picbxListVehicle).BeginInit();
+            panelPayment.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
+            SuspendLayout();
             // 
             // panelMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.Black;
-            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(100, 934);
-            this.panelMenu.TabIndex = 9;
+            panelMenu.BackColor = Color.Black;
+            panelMenu.Dock = DockStyle.Left;
+            panelMenu.Location = new Point(0, 0);
+            panelMenu.Name = "panelMenu";
+            panelMenu.Size = new Size(100, 934);
+            panelMenu.TabIndex = 9;
             // 
             // painelHeader
             // 
-            this.painelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(0)))));
-            this.painelHeader.Controls.Add(this.picbxHeader);
-            this.painelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.painelHeader.Location = new System.Drawing.Point(100, 0);
-            this.painelHeader.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.painelHeader.Name = "painelHeader";
-            this.painelHeader.Size = new System.Drawing.Size(1824, 152);
-            this.painelHeader.TabIndex = 11;
+            painelHeader.BackColor = Color.FromArgb(255, 205, 0);
+            painelHeader.Controls.Add(picbxHeader);
+            painelHeader.Dock = DockStyle.Top;
+            painelHeader.Location = new Point(100, 0);
+            painelHeader.Margin = new Padding(3, 5, 3, 5);
+            painelHeader.Name = "painelHeader";
+            painelHeader.Size = new Size(1824, 152);
+            painelHeader.TabIndex = 11;
             // 
             // picbxHeader
             // 
-            this.picbxHeader.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picbxHeader.Image = global::Parking.Properties.Resources.Logo350x150px;
-            this.picbxHeader.Location = new System.Drawing.Point(0, 0);
-            this.picbxHeader.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.picbxHeader.Name = "picbxHeader";
-            this.picbxHeader.Padding = new System.Windows.Forms.Padding(0, 31, 0, 0);
-            this.picbxHeader.Size = new System.Drawing.Size(1824, 152);
-            this.picbxHeader.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.picbxHeader.TabIndex = 0;
-            this.picbxHeader.TabStop = false;
+            picbxHeader.Dock = DockStyle.Fill;
+            picbxHeader.Image = Properties.Resources.Logo350x150px;
+            picbxHeader.Location = new Point(0, 0);
+            picbxHeader.Margin = new Padding(3, 5, 3, 5);
+            picbxHeader.Name = "picbxHeader";
+            picbxHeader.Padding = new Padding(0, 31, 0, 0);
+            picbxHeader.Size = new Size(1824, 152);
+            picbxHeader.SizeMode = PictureBoxSizeMode.CenterImage;
+            picbxHeader.TabIndex = 0;
+            picbxHeader.TabStop = false;
             // 
             // panelVehicleRegistration
             // 
-            this.panelVehicleRegistration.BackColor = System.Drawing.SystemColors.Window;
-            this.panelVehicleRegistration.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelVehicleRegistration.Controls.Add(this.panel5);
-            this.panelVehicleRegistration.Controls.Add(this.cbxParkingSpace);
-            this.panelVehicleRegistration.Controls.Add(this.lblParkingSpace);
-            this.panelVehicleRegistration.Controls.Add(this.btnAddVehicle);
-            this.panelVehicleRegistration.Controls.Add(this.txbNumberPlate);
-            this.panelVehicleRegistration.Controls.Add(this.lblNumberPlate);
-            this.panelVehicleRegistration.Controls.Add(this.cbxVehicleType);
-            this.panelVehicleRegistration.Controls.Add(this.lblVehicleType);
-            this.panelVehicleRegistration.Location = new System.Drawing.Point(180, 223);
-            this.panelVehicleRegistration.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.panelVehicleRegistration.Name = "panelVehicleRegistration";
-            this.panelVehicleRegistration.Size = new System.Drawing.Size(489, 629);
-            this.panelVehicleRegistration.TabIndex = 10;
+            panelVehicleRegistration.BackColor = SystemColors.Window;
+            panelVehicleRegistration.BorderStyle = BorderStyle.FixedSingle;
+            panelVehicleRegistration.Controls.Add(panel5);
+            panelVehicleRegistration.Controls.Add(cbxParkingSpace);
+            panelVehicleRegistration.Controls.Add(lblParkingSpace);
+            panelVehicleRegistration.Controls.Add(btnAddVehicle);
+            panelVehicleRegistration.Controls.Add(txbNumberPlate);
+            panelVehicleRegistration.Controls.Add(lblNumberPlate);
+            panelVehicleRegistration.Controls.Add(cbxVehicleType);
+            panelVehicleRegistration.Controls.Add(lblVehicleType);
+            panelVehicleRegistration.Location = new Point(180, 223);
+            panelVehicleRegistration.Margin = new Padding(3, 5, 3, 5);
+            panelVehicleRegistration.Name = "panelVehicleRegistration";
+            panelVehicleRegistration.Size = new Size(489, 629);
+            panelVehicleRegistration.TabIndex = 10;
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.Controls.Add(this.labelTitleEntryVehicle);
-            this.panel5.Controls.Add(this.picbxEntryVehicle);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(487, 106);
-            this.panel5.TabIndex = 7;
+            panel5.BackColor = Color.Black;
+            panel5.Controls.Add(labelTitleEntryVehicle);
+            panel5.Controls.Add(picbxEntryVehicle);
+            panel5.Dock = DockStyle.Top;
+            panel5.Location = new Point(0, 0);
+            panel5.Margin = new Padding(3, 5, 3, 5);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(487, 106);
+            panel5.TabIndex = 7;
             // 
             // labelTitleEntryVehicle
             // 
-            this.labelTitleEntryVehicle.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelTitleEntryVehicle.Font = new System.Drawing.Font("Segoe UI Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelTitleEntryVehicle.ForeColor = System.Drawing.SystemColors.Window;
-            this.labelTitleEntryVehicle.Location = new System.Drawing.Point(127, 0);
-            this.labelTitleEntryVehicle.Name = "labelTitleEntryVehicle";
-            this.labelTitleEntryVehicle.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.labelTitleEntryVehicle.Size = new System.Drawing.Size(360, 106);
-            this.labelTitleEntryVehicle.TabIndex = 11;
-            this.labelTitleEntryVehicle.Text = "Vehicle Registration";
-            this.labelTitleEntryVehicle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            labelTitleEntryVehicle.Dock = DockStyle.Right;
+            labelTitleEntryVehicle.Font = new Font("Segoe UI Black", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            labelTitleEntryVehicle.ForeColor = SystemColors.Window;
+            labelTitleEntryVehicle.Location = new Point(127, 0);
+            labelTitleEntryVehicle.Name = "labelTitleEntryVehicle";
+            labelTitleEntryVehicle.Padding = new Padding(12, 0, 0, 0);
+            labelTitleEntryVehicle.Size = new Size(360, 106);
+            labelTitleEntryVehicle.TabIndex = 11;
+            labelTitleEntryVehicle.Text = "Vehicle Registration";
+            labelTitleEntryVehicle.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // picbxEntryVehicle
             // 
-            this.picbxEntryVehicle.Dock = System.Windows.Forms.DockStyle.Left;
-            this.picbxEntryVehicle.Image = global::Parking.Properties.Resources._1;
-            this.picbxEntryVehicle.Location = new System.Drawing.Point(0, 0);
-            this.picbxEntryVehicle.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.picbxEntryVehicle.Name = "picbxEntryVehicle";
-            this.picbxEntryVehicle.Size = new System.Drawing.Size(128, 106);
-            this.picbxEntryVehicle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picbxEntryVehicle.TabIndex = 10;
-            this.picbxEntryVehicle.TabStop = false;
+            picbxEntryVehicle.Dock = DockStyle.Left;
+            picbxEntryVehicle.Image = Properties.Resources._1;
+            picbxEntryVehicle.Location = new Point(0, 0);
+            picbxEntryVehicle.Margin = new Padding(3, 5, 3, 5);
+            picbxEntryVehicle.Name = "picbxEntryVehicle";
+            picbxEntryVehicle.Size = new Size(128, 106);
+            picbxEntryVehicle.SizeMode = PictureBoxSizeMode.Zoom;
+            picbxEntryVehicle.TabIndex = 10;
+            picbxEntryVehicle.TabStop = false;
             // 
             // cbxParkingSpace
             // 
-            this.cbxParkingSpace.BackColor = System.Drawing.SystemColors.Menu;
-            this.cbxParkingSpace.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxParkingSpace.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cbxParkingSpace.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cbxParkingSpace.FormattingEnabled = true;
-            this.cbxParkingSpace.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.cbxParkingSpace.Location = new System.Drawing.Point(288, 192);
-            this.cbxParkingSpace.Name = "cbxParkingSpace";
-            this.cbxParkingSpace.Size = new System.Drawing.Size(64, 31);
-            this.cbxParkingSpace.TabIndex = 6;
+            cbxParkingSpace.BackColor = SystemColors.Menu;
+            cbxParkingSpace.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbxParkingSpace.FlatStyle = FlatStyle.Popup;
+            cbxParkingSpace.ForeColor = SystemColors.WindowText;
+            cbxParkingSpace.FormattingEnabled = true;
+            cbxParkingSpace.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
+            cbxParkingSpace.Location = new Point(288, 192);
+            cbxParkingSpace.Name = "cbxParkingSpace";
+            cbxParkingSpace.Size = new Size(64, 31);
+            cbxParkingSpace.TabIndex = 6;
             // 
             // lblParkingSpace
             // 
-            this.lblParkingSpace.AutoSize = true;
-            this.lblParkingSpace.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblParkingSpace.Location = new System.Drawing.Point(68, 195);
-            this.lblParkingSpace.Name = "lblParkingSpace";
-            this.lblParkingSpace.Size = new System.Drawing.Size(163, 28);
-            this.lblParkingSpace.TabIndex = 5;
-            this.lblParkingSpace.Text = "Parking space no.";
+            lblParkingSpace.AutoSize = true;
+            lblParkingSpace.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblParkingSpace.Location = new Point(68, 195);
+            lblParkingSpace.Name = "lblParkingSpace";
+            lblParkingSpace.Size = new Size(163, 28);
+            lblParkingSpace.TabIndex = 5;
+            lblParkingSpace.Text = "Parking space no.";
             // 
             // btnAddVehicle
             // 
-            this.btnAddVehicle.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnAddVehicle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAddVehicle.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnAddVehicle.Location = new System.Drawing.Point(-2, 569);
-            this.btnAddVehicle.Name = "btnAddVehicle";
-            this.btnAddVehicle.Size = new System.Drawing.Size(489, 59);
-            this.btnAddVehicle.TabIndex = 4;
-            this.btnAddVehicle.Text = "Adicionar";
-            this.btnAddVehicle.UseVisualStyleBackColor = false;
-            this.btnAddVehicle.Click += new System.EventHandler(this.button1_Click);
+            btnAddVehicle.BackColor = Color.ForestGreen;
+            btnAddVehicle.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnAddVehicle.ForeColor = SystemColors.Window;
+            btnAddVehicle.Location = new Point(-2, 569);
+            btnAddVehicle.Name = "btnAddVehicle";
+            btnAddVehicle.Size = new Size(489, 59);
+            btnAddVehicle.TabIndex = 4;
+            btnAddVehicle.Text = "Adicionar";
+            btnAddVehicle.UseVisualStyleBackColor = false;
+            btnAddVehicle.Click += button1_Click;
             // 
             // txbNumberPlate
             // 
-            this.txbNumberPlate.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txbNumberPlate.Location = new System.Drawing.Point(273, 310);
-            this.txbNumberPlate.MaxLength = 7;
-            this.txbNumberPlate.Name = "txbNumberPlate";
-            this.txbNumberPlate.Size = new System.Drawing.Size(147, 30);
-            this.txbNumberPlate.TabIndex = 3;
+            txbNumberPlate.CharacterCasing = CharacterCasing.Upper;
+            txbNumberPlate.Location = new Point(273, 310);
+            txbNumberPlate.MaxLength = 7;
+            txbNumberPlate.Name = "txbNumberPlate";
+            txbNumberPlate.Size = new Size(147, 30);
+            txbNumberPlate.TabIndex = 3;
             // 
             // lblNumberPlate
             // 
-            this.lblNumberPlate.AutoSize = true;
-            this.lblNumberPlate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNumberPlate.Location = new System.Drawing.Point(273, 260);
-            this.lblNumberPlate.Name = "lblNumberPlate";
-            this.lblNumberPlate.Size = new System.Drawing.Size(132, 28);
-            this.lblNumberPlate.TabIndex = 2;
-            this.lblNumberPlate.Text = "Number Plate";
+            lblNumberPlate.AutoSize = true;
+            lblNumberPlate.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblNumberPlate.Location = new Point(273, 260);
+            lblNumberPlate.Name = "lblNumberPlate";
+            lblNumberPlate.Size = new Size(132, 28);
+            lblNumberPlate.TabIndex = 2;
+            lblNumberPlate.Text = "Number Plate";
             // 
             // cbxVehicleType
             // 
-            this.cbxVehicleType.FormattingEnabled = true;
-            this.cbxVehicleType.Items.AddRange(new object[] {
-            "Car",
-            "Motorcycle",
-            "Truck"});
-            this.cbxVehicleType.Location = new System.Drawing.Point(68, 310);
-            this.cbxVehicleType.Name = "cbxVehicleType";
-            this.cbxVehicleType.Size = new System.Drawing.Size(131, 31);
-            this.cbxVehicleType.TabIndex = 1;
+            cbxVehicleType.FormattingEnabled = true;
+            cbxVehicleType.Items.AddRange(new object[] { "Car", "Motorcycle", "Truck" });
+            cbxVehicleType.Location = new Point(68, 310);
+            cbxVehicleType.Name = "cbxVehicleType";
+            cbxVehicleType.Size = new Size(131, 31);
+            cbxVehicleType.TabIndex = 1;
             // 
             // lblVehicleType
             // 
-            this.lblVehicleType.AutoSize = true;
-            this.lblVehicleType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblVehicleType.Location = new System.Drawing.Point(68, 260);
-            this.lblVehicleType.Name = "lblVehicleType";
-            this.lblVehicleType.Size = new System.Drawing.Size(117, 28);
-            this.lblVehicleType.TabIndex = 0;
-            this.lblVehicleType.Text = "Vehicle type";
+            lblVehicleType.AutoSize = true;
+            lblVehicleType.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblVehicleType.Location = new Point(68, 260);
+            lblVehicleType.Name = "lblVehicleType";
+            lblVehicleType.Size = new Size(117, 28);
+            lblVehicleType.TabIndex = 0;
+            lblVehicleType.Text = "Vehicle type";
             // 
             // pnlLisvViewEntryCar
             // 
-            this.pnlLisvViewEntryCar.Controls.Add(this.buttonRemoveVehicle);
-            this.pnlLisvViewEntryCar.Controls.Add(this.panelListOfRestered);
-            this.pnlLisvViewEntryCar.Controls.Add(this.lvVehicleEntrance);
-            this.pnlLisvViewEntryCar.Location = new System.Drawing.Point(729, 224);
-            this.pnlLisvViewEntryCar.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.pnlLisvViewEntryCar.Name = "pnlLisvViewEntryCar";
-            this.pnlLisvViewEntryCar.Size = new System.Drawing.Size(505, 628);
-            this.pnlLisvViewEntryCar.TabIndex = 13;
+            pnlLisvViewEntryCar.Controls.Add(buttonRemoveVehicle);
+            pnlLisvViewEntryCar.Controls.Add(panelListOfRestered);
+            pnlLisvViewEntryCar.Controls.Add(lvVehicleEntrance);
+            pnlLisvViewEntryCar.Location = new Point(729, 224);
+            pnlLisvViewEntryCar.Margin = new Padding(3, 5, 3, 5);
+            pnlLisvViewEntryCar.Name = "pnlLisvViewEntryCar";
+            pnlLisvViewEntryCar.Size = new Size(505, 628);
+            pnlLisvViewEntryCar.TabIndex = 13;
             // 
             // buttonRemoveVehicle
             // 
-            this.buttonRemoveVehicle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(0)))), ((int)(((byte)(7)))));
-            this.buttonRemoveVehicle.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonRemoveVehicle.ForeColor = System.Drawing.SystemColors.Window;
-            this.buttonRemoveVehicle.Location = new System.Drawing.Point(1, 569);
-            this.buttonRemoveVehicle.Name = "buttonRemoveVehicle";
-            this.buttonRemoveVehicle.Size = new System.Drawing.Size(504, 59);
-            this.buttonRemoveVehicle.TabIndex = 14;
-            this.buttonRemoveVehicle.Text = "Remove Vehicle";
-            this.buttonRemoveVehicle.UseVisualStyleBackColor = false;
-            this.buttonRemoveVehicle.Click += new System.EventHandler(this.buttonRemoveVehicle_Click);
+            buttonRemoveVehicle.BackColor = Color.FromArgb(199, 0, 7);
+            buttonRemoveVehicle.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonRemoveVehicle.ForeColor = SystemColors.Window;
+            buttonRemoveVehicle.Location = new Point(1, 569);
+            buttonRemoveVehicle.Name = "buttonRemoveVehicle";
+            buttonRemoveVehicle.Size = new Size(504, 59);
+            buttonRemoveVehicle.TabIndex = 14;
+            buttonRemoveVehicle.Text = "Remove Vehicle";
+            buttonRemoveVehicle.UseVisualStyleBackColor = false;
+            buttonRemoveVehicle.Click += buttonRemoveVehicle_Click;
             // 
             // panelListOfRestered
             // 
-            this.panelListOfRestered.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(0)))));
-            this.panelListOfRestered.Controls.Add(this.lblTitleVehicleEntry);
-            this.panelListOfRestered.Controls.Add(this.picbxListVehicle);
-            this.panelListOfRestered.Location = new System.Drawing.Point(0, 0);
-            this.panelListOfRestered.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.panelListOfRestered.Name = "panelListOfRestered";
-            this.panelListOfRestered.Size = new System.Drawing.Size(614, 106);
-            this.panelListOfRestered.TabIndex = 12;
+            panelListOfRestered.BackColor = Color.FromArgb(255, 205, 0);
+            panelListOfRestered.Controls.Add(lblTitleVehicleEntry);
+            panelListOfRestered.Controls.Add(picbxListVehicle);
+            panelListOfRestered.Location = new Point(0, 0);
+            panelListOfRestered.Margin = new Padding(3, 5, 3, 5);
+            panelListOfRestered.Name = "panelListOfRestered";
+            panelListOfRestered.Size = new Size(614, 106);
+            panelListOfRestered.TabIndex = 12;
             // 
             // lblTitleVehicleEntry
             // 
-            this.lblTitleVehicleEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(0)))));
-            this.lblTitleVehicleEntry.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblTitleVehicleEntry.Font = new System.Drawing.Font("Segoe UI Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTitleVehicleEntry.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblTitleVehicleEntry.Location = new System.Drawing.Point(128, 0);
-            this.lblTitleVehicleEntry.Name = "lblTitleVehicleEntry";
-            this.lblTitleVehicleEntry.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.lblTitleVehicleEntry.Size = new System.Drawing.Size(486, 106);
-            this.lblTitleVehicleEntry.TabIndex = 12;
-            this.lblTitleVehicleEntry.Text = "List of Registered Vehicles";
-            this.lblTitleVehicleEntry.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            lblTitleVehicleEntry.BackColor = Color.FromArgb(255, 205, 0);
+            lblTitleVehicleEntry.Dock = DockStyle.Right;
+            lblTitleVehicleEntry.Font = new Font("Segoe UI Black", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTitleVehicleEntry.ForeColor = SystemColors.Window;
+            lblTitleVehicleEntry.Location = new Point(128, 0);
+            lblTitleVehicleEntry.Name = "lblTitleVehicleEntry";
+            lblTitleVehicleEntry.Padding = new Padding(12, 0, 0, 0);
+            lblTitleVehicleEntry.Size = new Size(486, 106);
+            lblTitleVehicleEntry.TabIndex = 12;
+            lblTitleVehicleEntry.Text = "List of Registered Vehicles";
+            lblTitleVehicleEntry.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // picbxListVehicle
             // 
-            this.picbxListVehicle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(0)))));
-            this.picbxListVehicle.Dock = System.Windows.Forms.DockStyle.Left;
-            this.picbxListVehicle.Image = global::Parking.Properties.Resources._2;
-            this.picbxListVehicle.Location = new System.Drawing.Point(0, 0);
-            this.picbxListVehicle.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.picbxListVehicle.Name = "picbxListVehicle";
-            this.picbxListVehicle.Size = new System.Drawing.Size(128, 106);
-            this.picbxListVehicle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picbxListVehicle.TabIndex = 9;
-            this.picbxListVehicle.TabStop = false;
+            picbxListVehicle.BackColor = Color.FromArgb(255, 205, 0);
+            picbxListVehicle.Dock = DockStyle.Left;
+            picbxListVehicle.Image = Properties.Resources._2;
+            picbxListVehicle.Location = new Point(0, 0);
+            picbxListVehicle.Margin = new Padding(3, 5, 3, 5);
+            picbxListVehicle.Name = "picbxListVehicle";
+            picbxListVehicle.Size = new Size(128, 106);
+            picbxListVehicle.SizeMode = PictureBoxSizeMode.Zoom;
+            picbxListVehicle.TabIndex = 9;
+            picbxListVehicle.TabStop = false;
             // 
             // lvVehicleEntrance
             // 
-            this.lvVehicleEntrance.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lvVehicleEntrance.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lvVehicleEntrance.Location = new System.Drawing.Point(0, 105);
-            this.lvVehicleEntrance.Name = "lvVehicleEntrance";
-            this.lvVehicleEntrance.Size = new System.Drawing.Size(505, 523);
-            this.lvVehicleEntrance.TabIndex = 7;
-            this.lvVehicleEntrance.UseCompatibleStateImageBehavior = false;
+            lvVehicleEntrance.BorderStyle = BorderStyle.FixedSingle;
+            lvVehicleEntrance.Dock = DockStyle.Bottom;
+            lvVehicleEntrance.Location = new Point(0, 105);
+            lvVehicleEntrance.Name = "lvVehicleEntrance";
+            lvVehicleEntrance.Size = new Size(505, 523);
+            lvVehicleEntrance.TabIndex = 7;
+            lvVehicleEntrance.UseCompatibleStateImageBehavior = false;
             // 
             // panelPayment
             // 
-            this.panelPayment.BackColor = System.Drawing.SystemColors.Window;
-            this.panelPayment.Controls.Add(this.panel2);
-            this.panelPayment.Controls.Add(this.panel1);
-            this.panelPayment.Controls.Add(this.textBoxPaymentExistTime);
-            this.panelPayment.Controls.Add(this.labelPaymentExitTime);
-            this.panelPayment.Controls.Add(this.textBoxPaymentEntryTime);
-            this.panelPayment.Controls.Add(this.labelPaymentEntryTime);
-            this.panelPayment.Controls.Add(this.textBoxPaymentNumberPalte);
-            this.panelPayment.Controls.Add(this.labelPaymentNumberPlate);
-            this.panelPayment.Controls.Add(this.textBoxPaymentVehicleType);
-            this.panelPayment.Controls.Add(this.labelPaymentVehicleType);
-            this.panelPayment.Controls.Add(this.textBoxPaymentParkingSpace);
-            this.panelPayment.Controls.Add(this.labelPaymentParkingSpace);
-            this.panelPayment.Location = new System.Drawing.Point(1300, 223);
-            this.panelPayment.Name = "panelPayment";
-            this.panelPayment.Size = new System.Drawing.Size(574, 629);
-            this.panelPayment.TabIndex = 14;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.panel1.Controls.Add(this.labelTotalTime);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.labelPricepeTtime);
-            this.panel1.Controls.Add(this.textBoxPaymentPricePerPeriod);
-            this.panel1.Controls.Add(this.labelPaymentPrice);
-            this.panel1.Location = new System.Drawing.Point(42, 348);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(495, 221);
-            this.panel1.TabIndex = 19;
-            // 
-            // labelTotalTime
-            // 
-            this.labelTotalTime.AutoSize = true;
-            this.labelTotalTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelTotalTime.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelTotalTime.Location = new System.Drawing.Point(366, 95);
-            this.labelTotalTime.Name = "labelTotalTime";
-            this.labelTotalTime.Size = new System.Drawing.Size(88, 28);
-            this.labelTotalTime.TabIndex = 24;
-            this.labelTotalTime.Text = "00:00:00";
-            this.labelTotalTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label3.Location = new System.Drawing.Point(20, 95);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 28);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "Total time";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label2.Location = new System.Drawing.Point(424, 58);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 20);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "/ Hour";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(361, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 28);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "$ 5.00";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // labelPricepeTtime
-            // 
-            this.labelPricepeTtime.AutoSize = true;
-            this.labelPricepeTtime.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPricepeTtime.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.labelPricepeTtime.Location = new System.Drawing.Point(20, 53);
-            this.labelPricepeTtime.Name = "labelPricepeTtime";
-            this.labelPricepeTtime.Size = new System.Drawing.Size(139, 28);
-            this.labelPricepeTtime.TabIndex = 20;
-            this.labelPricepeTtime.Text = "Price per time";
-            // 
-            // textBoxPaymentPricePerPeriod
-            // 
-            this.textBoxPaymentPricePerPeriod.AutoSize = true;
-            this.textBoxPaymentPricePerPeriod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.textBoxPaymentPricePerPeriod.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBoxPaymentPricePerPeriod.Location = new System.Drawing.Point(375, 174);
-            this.textBoxPaymentPricePerPeriod.Name = "textBoxPaymentPricePerPeriod";
-            this.textBoxPaymentPricePerPeriod.Size = new System.Drawing.Size(79, 32);
-            this.textBoxPaymentPricePerPeriod.TabIndex = 19;
-            this.textBoxPaymentPricePerPeriod.Text = "$ 0.00";
-            // 
-            // labelPaymentPrice
-            // 
-            this.labelPaymentPrice.AutoSize = true;
-            this.labelPaymentPrice.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentPrice.Location = new System.Drawing.Point(20, 174);
-            this.labelPaymentPrice.Name = "labelPaymentPrice";
-            this.labelPaymentPrice.Size = new System.Drawing.Size(67, 32);
-            this.labelPaymentPrice.TabIndex = 18;
-            this.labelPaymentPrice.Text = "Total";
-            // 
-            // textBoxPaymentExistTime
-            // 
-            this.textBoxPaymentExistTime.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBoxPaymentExistTime.Enabled = false;
-            this.textBoxPaymentExistTime.Location = new System.Drawing.Point(315, 288);
-            this.textBoxPaymentExistTime.MaximumSize = new System.Drawing.Size(10000, 1000);
-            this.textBoxPaymentExistTime.Name = "textBoxPaymentExistTime";
-            this.textBoxPaymentExistTime.Size = new System.Drawing.Size(222, 30);
-            this.textBoxPaymentExistTime.TabIndex = 16;
-            // 
-            // labelPaymentExitTime
-            // 
-            this.labelPaymentExitTime.AutoSize = true;
-            this.labelPaymentExitTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentExitTime.Location = new System.Drawing.Point(315, 255);
-            this.labelPaymentExitTime.Name = "labelPaymentExitTime";
-            this.labelPaymentExitTime.Size = new System.Drawing.Size(90, 28);
-            this.labelPaymentExitTime.TabIndex = 15;
-            this.labelPaymentExitTime.Text = "Exit Time";
-            // 
-            // textBoxPaymentEntryTime
-            // 
-            this.textBoxPaymentEntryTime.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBoxPaymentEntryTime.Enabled = false;
-            this.textBoxPaymentEntryTime.Location = new System.Drawing.Point(48, 286);
-            this.textBoxPaymentEntryTime.MaximumSize = new System.Drawing.Size(10000, 1000);
-            this.textBoxPaymentEntryTime.Name = "textBoxPaymentEntryTime";
-            this.textBoxPaymentEntryTime.Size = new System.Drawing.Size(222, 30);
-            this.textBoxPaymentEntryTime.TabIndex = 14;
-            // 
-            // labelPaymentEntryTime
-            // 
-            this.labelPaymentEntryTime.AutoSize = true;
-            this.labelPaymentEntryTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentEntryTime.Location = new System.Drawing.Point(48, 255);
-            this.labelPaymentEntryTime.Name = "labelPaymentEntryTime";
-            this.labelPaymentEntryTime.Size = new System.Drawing.Size(104, 28);
-            this.labelPaymentEntryTime.TabIndex = 13;
-            this.labelPaymentEntryTime.Text = "Entry Time";
-            // 
-            // textBoxPaymentNumberPalte
-            // 
-            this.textBoxPaymentNumberPalte.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBoxPaymentNumberPalte.Enabled = false;
-            this.textBoxPaymentNumberPalte.Location = new System.Drawing.Point(336, 165);
-            this.textBoxPaymentNumberPalte.MaximumSize = new System.Drawing.Size(10000, 1000);
-            this.textBoxPaymentNumberPalte.Name = "textBoxPaymentNumberPalte";
-            this.textBoxPaymentNumberPalte.Size = new System.Drawing.Size(160, 30);
-            this.textBoxPaymentNumberPalte.TabIndex = 12;
-            // 
-            // labelPaymentNumberPlate
-            // 
-            this.labelPaymentNumberPlate.AutoSize = true;
-            this.labelPaymentNumberPlate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentNumberPlate.Location = new System.Drawing.Point(336, 131);
-            this.labelPaymentNumberPlate.Name = "labelPaymentNumberPlate";
-            this.labelPaymentNumberPlate.Size = new System.Drawing.Size(132, 28);
-            this.labelPaymentNumberPlate.TabIndex = 8;
-            this.labelPaymentNumberPlate.Text = "Number Plate";
-            // 
-            // textBoxPaymentVehicleType
-            // 
-            this.textBoxPaymentVehicleType.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBoxPaymentVehicleType.Enabled = false;
-            this.textBoxPaymentVehicleType.Location = new System.Drawing.Point(150, 165);
-            this.textBoxPaymentVehicleType.MaximumSize = new System.Drawing.Size(10000, 1000);
-            this.textBoxPaymentVehicleType.Name = "textBoxPaymentVehicleType";
-            this.textBoxPaymentVehicleType.Size = new System.Drawing.Size(138, 30);
-            this.textBoxPaymentVehicleType.TabIndex = 11;
-            // 
-            // labelPaymentVehicleType
-            // 
-            this.labelPaymentVehicleType.AutoSize = true;
-            this.labelPaymentVehicleType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentVehicleType.Location = new System.Drawing.Point(150, 132);
-            this.labelPaymentVehicleType.Name = "labelPaymentVehicleType";
-            this.labelPaymentVehicleType.Size = new System.Drawing.Size(117, 28);
-            this.labelPaymentVehicleType.TabIndex = 10;
-            this.labelPaymentVehicleType.Text = "Vehicle type";
-            // 
-            // textBoxPaymentParkingSpace
-            // 
-            this.textBoxPaymentParkingSpace.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBoxPaymentParkingSpace.Enabled = false;
-            this.textBoxPaymentParkingSpace.Location = new System.Drawing.Point(54, 165);
-            this.textBoxPaymentParkingSpace.MaximumSize = new System.Drawing.Size(10000, 1000);
-            this.textBoxPaymentParkingSpace.Name = "textBoxPaymentParkingSpace";
-            this.textBoxPaymentParkingSpace.Size = new System.Drawing.Size(61, 30);
-            this.textBoxPaymentParkingSpace.TabIndex = 9;
-            // 
-            // labelPaymentParkingSpace
-            // 
-            this.labelPaymentParkingSpace.AutoSize = true;
-            this.labelPaymentParkingSpace.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPaymentParkingSpace.Location = new System.Drawing.Point(54, 133);
-            this.labelPaymentParkingSpace.Name = "labelPaymentParkingSpace";
-            this.labelPaymentParkingSpace.Size = new System.Drawing.Size(35, 28);
-            this.labelPaymentParkingSpace.TabIndex = 8;
-            this.labelPaymentParkingSpace.Text = "N°";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            panelPayment.BackColor = SystemColors.Window;
+            panelPayment.BorderStyle = BorderStyle.FixedSingle;
+            panelPayment.Controls.Add(panel2);
+            panelPayment.Controls.Add(panel1);
+            panelPayment.Controls.Add(textBoxPaymentExistTime);
+            panelPayment.Controls.Add(labelPaymentExitTime);
+            panelPayment.Controls.Add(textBoxPaymentEntryTime);
+            panelPayment.Controls.Add(labelPaymentEntryTime);
+            panelPayment.Controls.Add(textBoxPaymentNumberPalte);
+            panelPayment.Controls.Add(labelPaymentNumberPlate);
+            panelPayment.Controls.Add(textBoxPaymentVehicleType);
+            panelPayment.Controls.Add(labelPaymentVehicleType);
+            panelPayment.Controls.Add(textBoxPaymentParkingSpace);
+            panelPayment.Controls.Add(labelPaymentParkingSpace);
+            panelPayment.Location = new Point(1300, 223);
+            panelPayment.Name = "panelPayment";
+            panelPayment.Size = new Size(574, 629);
+            panelPayment.TabIndex = 14;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(574, 106);
-            this.panel2.TabIndex = 20;
+            panel2.BackColor = Color.Silver;
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(pictureBox1);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(3, 5, 3, 5);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(572, 106);
+            panel2.TabIndex = 20;
             // 
             // label4
             // 
-            this.label4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.SystemColors.Window;
-            this.label4.Location = new System.Drawing.Point(214, 0);
-            this.label4.Name = "label4";
-            this.label4.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.label4.Size = new System.Drawing.Size(360, 106);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Vehicle Registration";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            label4.Dock = DockStyle.Right;
+            label4.Font = new Font("Segoe UI Black", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = SystemColors.WindowText;
+            label4.Location = new Point(212, 0);
+            label4.Name = "label4";
+            label4.Padding = new Padding(12, 0, 0, 0);
+            label4.Size = new Size(360, 106);
+            label4.TabIndex = 11;
+            label4.Text = "Charge";
+            label4.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Image = global::Parking.Properties.Resources._1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(128, 106);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Dock = DockStyle.Left;
+            pictureBox1.Image = Properties.Resources._3;
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Margin = new Padding(3, 5, 3, 5);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(128, 106);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 10;
+            pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Gainsboro;
+            panel1.Controls.Add(labelTotalTime);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(labelPricepeTtime);
+            panel1.Controls.Add(textBoxPaymentPricePerPeriod);
+            panel1.Controls.Add(labelPaymentPrice);
+            panel1.Location = new Point(42, 348);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(495, 221);
+            panel1.TabIndex = 19;
+            // 
+            // labelTotalTime
+            // 
+            labelTotalTime.AutoSize = true;
+            labelTotalTime.FlatStyle = FlatStyle.Flat;
+            labelTotalTime.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            labelTotalTime.Location = new Point(361, 95);
+            labelTotalTime.Name = "labelTotalTime";
+            labelTotalTime.Size = new Size(88, 28);
+            labelTotalTime.TabIndex = 24;
+            labelTotalTime.Text = "00:00:00";
+            labelTotalTime.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.Gray;
+            label3.Location = new Point(20, 95);
+            label3.Name = "label3";
+            label3.Size = new Size(102, 28);
+            label3.TabIndex = 23;
+            label3.Text = "Total time";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.FlatStyle = FlatStyle.Flat;
+            label2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.Gray;
+            label2.Location = new Point(424, 58);
+            label2.Name = "label2";
+            label2.Size = new Size(54, 20);
+            label2.TabIndex = 22;
+            label2.Text = "/ Hour";
+            label2.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.FlatStyle = FlatStyle.Flat;
+            label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(361, 53);
+            label1.Name = "label1";
+            label1.Size = new Size(67, 28);
+            label1.TabIndex = 21;
+            label1.Text = "$ 5.00";
+            label1.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // labelPricepeTtime
+            // 
+            labelPricepeTtime.AutoSize = true;
+            labelPricepeTtime.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            labelPricepeTtime.ForeColor = Color.Gray;
+            labelPricepeTtime.Location = new Point(20, 53);
+            labelPricepeTtime.Name = "labelPricepeTtime";
+            labelPricepeTtime.Size = new Size(139, 28);
+            labelPricepeTtime.TabIndex = 20;
+            labelPricepeTtime.Text = "Price per time";
+            // 
+            // textBoxPaymentPricePerPeriod
+            // 
+            textBoxPaymentPricePerPeriod.AutoSize = true;
+            textBoxPaymentPricePerPeriod.FlatStyle = FlatStyle.Flat;
+            textBoxPaymentPricePerPeriod.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            textBoxPaymentPricePerPeriod.Location = new Point(361, 174);
+            textBoxPaymentPricePerPeriod.Name = "textBoxPaymentPricePerPeriod";
+            textBoxPaymentPricePerPeriod.Size = new Size(79, 32);
+            textBoxPaymentPricePerPeriod.TabIndex = 19;
+            textBoxPaymentPricePerPeriod.Text = "$ 0.00";
+            // 
+            // labelPaymentPrice
+            // 
+            labelPaymentPrice.AutoSize = true;
+            labelPaymentPrice.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            labelPaymentPrice.Location = new Point(20, 174);
+            labelPaymentPrice.Name = "labelPaymentPrice";
+            labelPaymentPrice.Size = new Size(67, 32);
+            labelPaymentPrice.TabIndex = 18;
+            labelPaymentPrice.Text = "Total";
+            // 
+            // textBoxPaymentExistTime
+            // 
+            textBoxPaymentExistTime.AutoCompleteMode = AutoCompleteMode.Suggest;
+            textBoxPaymentExistTime.Enabled = false;
+            textBoxPaymentExistTime.Location = new Point(315, 288);
+            textBoxPaymentExistTime.MaximumSize = new Size(10000, 1000);
+            textBoxPaymentExistTime.Name = "textBoxPaymentExistTime";
+            textBoxPaymentExistTime.Size = new Size(222, 30);
+            textBoxPaymentExistTime.TabIndex = 16;
+            // 
+            // labelPaymentExitTime
+            // 
+            labelPaymentExitTime.AutoSize = true;
+            labelPaymentExitTime.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            labelPaymentExitTime.Location = new Point(315, 255);
+            labelPaymentExitTime.Name = "labelPaymentExitTime";
+            labelPaymentExitTime.Size = new Size(90, 28);
+            labelPaymentExitTime.TabIndex = 15;
+            labelPaymentExitTime.Text = "Exit Time";
+            // 
+            // textBoxPaymentEntryTime
+            // 
+            textBoxPaymentEntryTime.AutoCompleteMode = AutoCompleteMode.Suggest;
+            textBoxPaymentEntryTime.Enabled = false;
+            textBoxPaymentEntryTime.Location = new Point(48, 286);
+            textBoxPaymentEntryTime.MaximumSize = new Size(10000, 1000);
+            textBoxPaymentEntryTime.Name = "textBoxPaymentEntryTime";
+            textBoxPaymentEntryTime.Size = new Size(222, 30);
+            textBoxPaymentEntryTime.TabIndex = 14;
+            // 
+            // labelPaymentEntryTime
+            // 
+            labelPaymentEntryTime.AutoSize = true;
+            labelPaymentEntryTime.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            labelPaymentEntryTime.Location = new Point(48, 255);
+            labelPaymentEntryTime.Name = "labelPaymentEntryTime";
+            labelPaymentEntryTime.Size = new Size(104, 28);
+            labelPaymentEntryTime.TabIndex = 13;
+            labelPaymentEntryTime.Text = "Entry Time";
+            // 
+            // textBoxPaymentNumberPalte
+            // 
+            textBoxPaymentNumberPalte.AutoCompleteMode = AutoCompleteMode.Suggest;
+            textBoxPaymentNumberPalte.Enabled = false;
+            textBoxPaymentNumberPalte.Location = new Point(336, 165);
+            textBoxPaymentNumberPalte.MaximumSize = new Size(10000, 1000);
+            textBoxPaymentNumberPalte.Name = "textBoxPaymentNumberPalte";
+            textBoxPaymentNumberPalte.Size = new Size(160, 30);
+            textBoxPaymentNumberPalte.TabIndex = 12;
+            // 
+            // labelPaymentNumberPlate
+            // 
+            labelPaymentNumberPlate.AutoSize = true;
+            labelPaymentNumberPlate.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            labelPaymentNumberPlate.Location = new Point(336, 131);
+            labelPaymentNumberPlate.Name = "labelPaymentNumberPlate";
+            labelPaymentNumberPlate.Size = new Size(132, 28);
+            labelPaymentNumberPlate.TabIndex = 8;
+            labelPaymentNumberPlate.Text = "Number Plate";
+            // 
+            // textBoxPaymentVehicleType
+            // 
+            textBoxPaymentVehicleType.AutoCompleteMode = AutoCompleteMode.Suggest;
+            textBoxPaymentVehicleType.Enabled = false;
+            textBoxPaymentVehicleType.Location = new Point(150, 165);
+            textBoxPaymentVehicleType.MaximumSize = new Size(10000, 1000);
+            textBoxPaymentVehicleType.Name = "textBoxPaymentVehicleType";
+            textBoxPaymentVehicleType.Size = new Size(138, 30);
+            textBoxPaymentVehicleType.TabIndex = 11;
+            // 
+            // labelPaymentVehicleType
+            // 
+            labelPaymentVehicleType.AutoSize = true;
+            labelPaymentVehicleType.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            labelPaymentVehicleType.Location = new Point(150, 132);
+            labelPaymentVehicleType.Name = "labelPaymentVehicleType";
+            labelPaymentVehicleType.Size = new Size(117, 28);
+            labelPaymentVehicleType.TabIndex = 10;
+            labelPaymentVehicleType.Text = "Vehicle type";
+            // 
+            // textBoxPaymentParkingSpace
+            // 
+            textBoxPaymentParkingSpace.AutoCompleteMode = AutoCompleteMode.Suggest;
+            textBoxPaymentParkingSpace.Enabled = false;
+            textBoxPaymentParkingSpace.Location = new Point(54, 165);
+            textBoxPaymentParkingSpace.MaximumSize = new Size(10000, 1000);
+            textBoxPaymentParkingSpace.Name = "textBoxPaymentParkingSpace";
+            textBoxPaymentParkingSpace.Size = new Size(61, 30);
+            textBoxPaymentParkingSpace.TabIndex = 9;
+            // 
+            // labelPaymentParkingSpace
+            // 
+            labelPaymentParkingSpace.AutoSize = true;
+            labelPaymentParkingSpace.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            labelPaymentParkingSpace.Location = new Point(54, 133);
+            labelPaymentParkingSpace.Name = "labelPaymentParkingSpace";
+            labelPaymentParkingSpace.Size = new Size(35, 28);
+            labelPaymentParkingSpace.TabIndex = 8;
+            labelPaymentParkingSpace.Text = "N°";
+            // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.ImageScalingSize = new Size(20, 20);
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(61, 4);
             // 
             // Parking
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 934);
-            this.Controls.Add(this.panelPayment);
-            this.Controls.Add(this.pnlLisvViewEntryCar);
-            this.Controls.Add(this.painelHeader);
-            this.Controls.Add(this.panelVehicleRegistration);
-            this.Controls.Add(this.panelMenu);
-            this.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Name = "Parking";
-            this.Text = "Parking";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Parking_Load);
-            this.painelHeader.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picbxHeader)).EndInit();
-            this.panelVehicleRegistration.ResumeLayout(false);
-            this.panelVehicleRegistration.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picbxEntryVehicle)).EndInit();
-            this.pnlLisvViewEntryCar.ResumeLayout(false);
-            this.panelListOfRestered.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picbxListVehicle)).EndInit();
-            this.panelPayment.ResumeLayout(false);
-            this.panelPayment.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(9F, 23F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1924, 934);
+            Controls.Add(panelPayment);
+            Controls.Add(pnlLisvViewEntryCar);
+            Controls.Add(painelHeader);
+            Controls.Add(panelVehicleRegistration);
+            Controls.Add(panelMenu);
+            Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            Name = "Parking";
+            Text = "Parking";
+            WindowState = FormWindowState.Maximized;
+            Load += Parking_Load;
+            painelHeader.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picbxHeader).EndInit();
+            panelVehicleRegistration.ResumeLayout(false);
+            panelVehicleRegistration.PerformLayout();
+            panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picbxEntryVehicle).EndInit();
+            pnlLisvViewEntryCar.ResumeLayout(false);
+            panelListOfRestered.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picbxListVehicle).EndInit();
+            panelPayment.ResumeLayout(false);
+            panelPayment.PerformLayout();
+            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion

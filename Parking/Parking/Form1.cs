@@ -16,7 +16,7 @@ namespace Parking
         internal bool CheckNumberPlate(Vehicle vehicle)
         {
             bool result = parkingSpots.Any(obj => obj.Vehicle != null && obj.Vehicle.NumberPlate == vehicle.NumberPlate);
-           
+
             return result;
         }
 
@@ -24,7 +24,7 @@ namespace Parking
         internal bool CheckParkingAvailability(int x)
         {
             bool result = parkingSpots.Any(obj => obj.Id == x && obj.Status == Availability.Available);
-           
+
             return result;
         }
 
@@ -42,7 +42,7 @@ namespace Parking
         private void Parking_Load(object sender, EventArgs e)
         {
             lvVehicleEntrance.View = View.Details;
-            lvVehicleEntrance.FullRowSelect = true;        
+            lvVehicleEntrance.FullRowSelect = true;
             lvVehicleEntrance.Columns.Add("N°", 60, HorizontalAlignment.Center);
             lvVehicleEntrance.Columns.Add("Type Vehicle", 110, HorizontalAlignment.Left);
             lvVehicleEntrance.Columns.Add("Number Plate", 120, HorizontalAlignment.Left);
@@ -101,7 +101,7 @@ namespace Parking
                 }
             }
         }
-       
+
 
 
         private void buttonRemoveVehicle_Click(object sender, EventArgs e)
@@ -122,8 +122,8 @@ namespace Parking
                 if (obj.Id == n)
                 {
                     obj.ExitTime = DateTime.Now;
-                    obj.TimePermanency();                  
-                    textBoxPaymentPricePerPeriod.Text ="$ "+obj.PricePerPeriod().ToString("F2");
+                    obj.TimePermanency();
+                    textBoxPaymentPricePerPeriod.Text = "$ " + obj.PricePerPeriod().ToString("F2");
                     labelTotalTime.Text = obj.TimeOfPermanency.ToString(@"hh\:mm\:ss");
 
 
@@ -139,11 +139,11 @@ namespace Parking
                         MessageBox.Show($"The data was not registered in the report\n{ex.Message}", "Registration status", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     obj.RemoveVehicle();
-                    
+
                     lvVehicleEntrance.Items.RemoveAt(lvVehicleEntrance.SelectedIndices[0]);
-                                   
+
                 }
-               
+
 
             }
 
