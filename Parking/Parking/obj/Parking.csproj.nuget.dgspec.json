@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj": {}
+    "C:\\Users\\a867900\\Documents\\GitHub\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj": {
+    "C:\\Users\\a867900\\Documents\\GitHub\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj",
+        "projectUniqueName": "C:\\Users\\a867900\\Documents\\GitHub\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj",
         "projectName": "Parking",
-        "projectPath": "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj",
+        "projectPath": "C:\\Users\\a867900\\Documents\\GitHub\\Desafio_Parking_WindowsForm\\Parking\\Parking\\Parking.csproj",
         "packagesPath": "C:\\Users\\a867900\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a867900\\OneDrive - Atos\\Documents\\Desafio_Parking_WindowsForm\\Parking\\Parking\\obj\\",
+        "outputPath": "C:\\Users\\a867900\\Documents\\GitHub\\Desafio_Parking_WindowsForm\\Parking\\Parking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

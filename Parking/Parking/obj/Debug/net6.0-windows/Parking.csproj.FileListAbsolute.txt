@@ -34,3 +34,9 @@ C:\Users\a867900\OneDrive - Atos\Documents\Desafio_Parking_WindowsForm\Parking\P
 C:\Users\a867900\OneDrive - Atos\Documents\Desafio_Parking_WindowsForm\Parking\Parking\obj\Debug\net6.0-windows\Parking.pdb
 C:\Users\a867900\OneDrive - Atos\Documents\Desafio_Parking_WindowsForm\Parking\Parking\obj\Debug\net6.0-windows\Parking.genruntimeconfig.cache
 C:\Users\a867900\OneDrive - Atos\Documents\Desafio_Parking_WindowsForm\Parking\Parking\obj\Debug\net6.0-windows\ref\Parking.dll
+C:\Users\a867900\Documents\GitHub\Desafio_Parking_WindowsForm\Parking\Parking\obj\Debug\net6.0-windows\Parking.csproj.AssemblyReference.cache
+C:\Users\a867900\Documents\GitHub\Desafio_Parking_WindowsForm\Parking\Parking\obj\Debug\net6.0-windows\Parking.Parking.resources
+C:\Users\a867900\Documents\GitHub\Desafio_Parking_WindowsForm\Parking\Parking\obj\Debug\net6.0-windows\Parking.csproj.GenerateResource.cache
+C:\Users\a867900\Documents\GitHub\Desafio_Parking_WindowsForm\Parking\Parking\obj\Debug\net6.0-windows\Parking.dll
+C:\Users\a867900\Documents\GitHub\Desafio_Parking_WindowsForm\Parking\Parking\obj\Debug\net6.0-windows\refint\Parking.dll
+C:\Users\a867900\Documents\GitHub\Desafio_Parking_WindowsForm\Parking\Parking\obj\Debug\net6.0-windows\Parking.pdb
